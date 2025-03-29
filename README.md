@@ -20,7 +20,7 @@ rosdep install --from-paths src -y --ignore-src -r
 colcon build
 source install/local_setup.bash
 ```
-5. Run the game!
+5. Run the game! (Wait for 2-3 minutes to load the maze)
 ```bash
 ros2 launch leo_gz_bringup maze_copy.launch.py
 ```
